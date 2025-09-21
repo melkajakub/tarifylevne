@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { PiggyBank, Search, Clock, ArrowRight } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import Newsletter from "@/components/Newsletter";
+
 
 const Index = () => {
   return (
@@ -84,12 +84,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Newsletter Section */}
-      <section className="py-16 px-4">
-        <div className="container mx-auto max-w-2xl">
-          <Newsletter />
-        </div>
-      </section>
 
       {/* Quick Links Section */}
       <section className="py-16 px-4 bg-muted/30">
