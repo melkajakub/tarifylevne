@@ -29,16 +29,22 @@ const TarifyStudenti = () => {
 
   const duchodciTarify = [
     {
-      operator: "SAZKAmobil",
-      tarif: "Senior balíček",
+      operator: "Vodafone",
+      tarif: "Red Senior",
       vynoha: "Jednoduchost",
       popis: "Přehledné účtování, velká tlačítka v aplikaci"
     },
     {
       operator: "O2",
       tarif: "Neon Senior",
-      vynoha: "Podpora 24/7",
+      vynoha: "Podpora 24/7", 
       popis: "Bezplatná technická podpora pro seniory"
+    },
+    {
+      operator: "T-Mobile",
+      tarif: "Twist Senior",
+      vynoha: "Bez závazku",
+      popis: "Flexibilní tarif s možností změny kdykoliv"
     }
   ];
 
