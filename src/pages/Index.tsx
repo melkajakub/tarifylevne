@@ -93,7 +93,7 @@ const Index = () => {
             <Link to="/nejlevnejsi-tarify-2025">
               <Button variant="default" size="lg" className="w-full h-auto p-6 flex flex-col items-center gap-3">
                 <span className="text-lg font-semibold">Nejlevnější tarify 2025</span>
-                <span className="text-sm text-muted-foreground">Aktuální přehled nejlevnějších nabídek</span>
+                <span className="text-sm text-primary-foreground/80">Aktuální přehled nejlevnějších nabídek</span>
               </Button>
             </Link>
             
