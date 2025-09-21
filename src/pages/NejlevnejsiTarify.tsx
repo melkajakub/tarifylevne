@@ -9,31 +9,38 @@ import Footer from "@/components/Footer";
 const NejlevnejsiTarify = () => {
   const tarify = [
     {
+      operator: "T-Mobile",
+      tarif: "TWIST pohromadě max",
+      cena: "249 Kč",
+      data: "Neomezené volání/SMS + 100 MB",
+      link: "{AFFILIATE_LINK}"
+    },
+    {
+      operator: "O2",
+      tarif: "FREE+ Start",
+      cena: "249 Kč",
+      data: "Neomezené volání vlastní + 500 MB",
+      link: "{AFFILIATE_LINK}"
+    },
+    {
       operator: "Vodafone",
-      tarif: "Basic Lite",
-      cena: "204 Kč",
+      tarif: "Red Basic Lite",
+      cena: "397 Kč",
       data: "3 GB + neomezené volání/SMS",
       link: "{AFFILIATE_LINK}"
     },
     {
       operator: "T-Mobile",
       tarif: "NextU 12 GB",
-      cena: "248 Kč",
-      data: "12 GB + víkendy neomezené",
+      cena: "495 Kč",
+      data: "12 GB + neomezené volání/SMS",
       link: "{AFFILIATE_LINK}"
     },
     {
       operator: "O2",
-      tarif: "Neo+ Stříbrný",
-      cena: "249 Kč",
-      data: "Neomezené 10 Mb/s + volání/SMS",
-      link: "{AFFILIATE_LINK}"
-    },
-    {
-      operator: "T-Mobile",
-      tarif: "NextU L",
-      cena: "353 Kč",
-      data: "Neomezené 20 Mb/s + volání/SMS",
+      tarif: "You 10 GB",
+      cena: "499 Kč",
+      data: "10 GB + neomezené volání/SMS",
       link: "{AFFILIATE_LINK}"
     }
   ];
