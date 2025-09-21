@@ -100,7 +100,7 @@ const Index = () => {
             <Link to="/tarify-neomezena-data">
               <Button variant="outline" size="lg" className="w-full h-auto p-6 flex flex-col items-center gap-3">
                 <span className="text-lg font-semibold">Tarify s neomezenými daty</span>
-                <span className="text-sm text-muted-foreground">Neomezené daty od 449 Kč měsíčně</span>
+                <span className="text-sm text-muted-foreground">Neomezená data od 449 Kč měsíčně</span>
               </Button>
             </Link>
             
