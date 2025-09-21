@@ -10,51 +10,44 @@ const NejlevnejsiTarify = () => {
   const tarify = [
     {
       operator: "Vodafone",
-      tarif: "Basic Lite",
-      cena: "204 Kč",
+      tarif: "Red Basic Lite",
+      cena: "397 Kč",
       data: "3 GB + neomezené volání/SMS",
-      link: "{AFFILIATE_LINK}"
-    },
-    {
-      operator: "Vodafone",
-      tarif: "Red Basic",
-      cena: "299 Kč",
-      data: "5 GB + neomezené volání/SMS",
-      link: "{AFFILIATE_LINK}"
-    },
-    {
-      operator: "Vodafone",
-      tarif: "Red Basic Plus",
-      cena: "399 Kč",
-      data: "10 GB + neomezené volání/SMS",
       link: "{AFFILIATE_LINK}"
     },
     {
       operator: "T-Mobile",
       tarif: "NextU 12 GB",
-      cena: "448 Kč",
+      cena: "495 Kč",
       data: "12 GB + neomezené volání/SMS",
       link: "https://www.t-mobile.cz"
     },
     {
-      operator: "Vodafone",
-      tarif: "Red Unlimited Start",
+      operator: "O2",
+      tarif: "Free Start",
       cena: "499 Kč",
+      data: "2 GB + neomezené volání/SMS",
+      link: "https://www.o2.cz"
+    },
+    {
+      operator: "Vodafone",
+      tarif: "Red Super",
+      cena: "699 Kč",
       data: "Neomezená data 10 Mb/s + volání/SMS",
       link: "{AFFILIATE_LINK}"
     },
     {
-      operator: "Vodafone",
-      tarif: "Red Unlimited",
-      cena: "699 Kč",
-      data: "Neomezená data plná rychlost + volání/SMS",
-      link: "{AFFILIATE_LINK}"
+      operator: "T-Mobile",
+      tarif: "Next L",
+      cena: "799 Kč",
+      data: "Neomezená data + volání/SMS",
+      link: "https://www.t-mobile.cz"
     },
     {
       operator: "O2",
-      tarif: "You 20 Mb/s",
-      cena: "799 Kč",
-      data: "Neomezená data 20 Mb/s + volání/SMS",
+      tarif: "You Unlimited",
+      cena: "899 Kč",
+      data: "Neomezená data + volání/SMS",
       link: "https://www.o2.cz"
     }
   ];
