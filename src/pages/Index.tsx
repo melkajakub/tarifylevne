@@ -104,12 +104,6 @@ const Index = () => {
               </Button>
             </Link>
             
-            <Link to="/tarify-pro-studenty-a-duchodce">
-              <Button variant="outline" size="lg" className="w-full h-auto p-6 flex flex-col items-center gap-3">
-                <span className="text-lg font-semibold">Tarify pro studenty a důchodce</span>
-                <span className="text-sm text-muted-foreground">Speciální slevy až 30%</span>
-              </Button>
-            </Link>
             
             <Link to="/tarify-bez-zavazku">
               <Button variant="outline" size="lg" className="w-full h-auto p-6 flex flex-col items-center gap-3">

@@ -18,9 +18,6 @@ const Header = () => {
           <Link to="/tarify-neomezena-data" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
             Neomezená data
           </Link>
-          <Link to="/tarify-pro-studenty-a-duchodce" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
-            Studenti & důchodci
-          </Link>
           <Link to="/tarify-bez-zavazku" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
             Bez závazku
           </Link>

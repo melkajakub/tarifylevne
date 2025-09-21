@@ -216,11 +216,6 @@ const TarifyNeomezenaData = () => {
                   Nejlevnější tarify 2025
                 </Button>
               </Link>
-              <Link to="/tarify-pro-studenty-a-duchodce">
-                <Button variant="outline">
-                  Tarify pro studenty a důchodce
-                </Button>
-              </Link>
               <Link to="/tarify-bez-zavazku">
                 <Button variant="outline">
                   Tarify bez závazku

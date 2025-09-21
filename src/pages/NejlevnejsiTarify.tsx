@@ -138,15 +138,7 @@ const NejlevnejsiTarify = () => {
               <CardTitle>Mohlo by vás také zajímat</CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="grid md:grid-cols-2 gap-4">
-                <div>
-                  <h4 className="font-semibold mb-2">
-                    <Link to="/tarify-pro-studenty-a-duchodce" className="text-primary hover:underline">
-                      Tarify pro studenty a důchodce
-                    </Link>
-                  </h4>
-                  <p className="text-sm text-muted-foreground">Speciální nabídky se slevami pro vybrané skupiny</p>
-                </div>
+              <div className="grid md:grid-cols-1 gap-4">
                 <div>
                   <h4 className="font-semibold mb-2">
                     <Link to="/tip-jak-snizit-ucet" className="text-primary hover:underline">
