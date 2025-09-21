@@ -13,7 +13,7 @@ const NejlevnejsiTarify = () => {
       tarif: "TWIST pohromadě max",
       cena: "249 Kč",
       data: "Neomezené volání/SMS + 100 MB",
-      link: "{AFFILIATE_LINK}"
+      link: "{www.tarifylevne.cz}"
     },
     {
       operator: "O2",
