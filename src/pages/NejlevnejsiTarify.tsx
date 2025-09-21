@@ -10,45 +10,38 @@ const NejlevnejsiTarify = () => {
   const tarify = [
     {
       operator: "Vodafone",
-      tarif: "Red Basic Start",
-      cena: "199 Kč",
-      data: "2 GB + neomezené volání/SMS",
-      link: "{AFFILIATE_LINK}"
-    },
-    {
-      operator: "Vodafone",
-      tarif: "Red Basic",
-      cena: "299 Kč",
-      data: "5 GB + neomezené volání/SMS",
+      tarif: "Basic Lite",
+      cena: "204 Kč",
+      data: "3 GB + neomezené volání/SMS",
       link: "{AFFILIATE_LINK}"
     },
     {
       operator: "T-Mobile",
-      tarif: "TWIST pohromadě max",
-      cena: "349 Kč",
-      data: "Neomezené volání/SMS + 100 MB",
+      tarif: "NextU 12 GB",
+      cena: "248 Kč",
+      data: "12 GB + neomezené volání/SMS",
       link: "https://www.t-mobile.cz"
     },
     {
-      operator: "Vodafone",
-      tarif: "Red Basic Plus",
-      cena: "399 Kč",
-      data: "10 GB + neomezené volání/SMS",
-      link: "{AFFILIATE_LINK}"
-    },
-    {
       operator: "O2",
-      tarif: "FREE+ Start",
-      cena: "449 Kč",
-      data: "Neomezené volání vlastní + 500 MB",
+      tarif: "Neo+ Stříbrný",
+      cena: "249 Kč",
+      data: "Neomezená data 10 Mb/s + neomezené volání/SMS",
       link: "https://www.o2.cz"
     },
     {
-      operator: "Vodafone",
-      tarif: "Red Unlimited Basic",
-      cena: "499 Kč",
-      data: "20 GB + neomezené volání/SMS",
-      link: "{AFFILIATE_LINK}"
+      operator: "T-Mobile",
+      tarif: "NextU L",
+      cena: "353 Kč",
+      data: "Neomezená data 20 Mb/s + neomezené volání/SMS",
+      link: "https://www.t-mobile.cz"
+    },
+    {
+      operator: "O2",
+      tarif: "You 20 Mb/s",
+      cena: "399 Kč",
+      data: "Neomezená data 20 Mb/s + neomezené volání/SMS",
+      link: "https://www.o2.cz"
     }
   ];
 
