@@ -90,49 +90,47 @@ const Index = () => {
         <div className="container mx-auto max-w-4xl">
           <h2 className="text-3xl font-bold text-center mb-12">Prozkoumejte naše kategorie</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <Card className="hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
-              <CardContent className="p-6">
-                <h3 className="font-semibold mb-2">
-                  <Link to="/tarify-pro-studenty-a-duchodce" className="text-primary hover:underline">
-                    Tarify pro studenty a důchodce
-                  </Link>
-                </h3>
-                <p className="text-sm text-muted-foreground">Speciální nabídky se slevami</p>
-              </CardContent>
-            </Card>
+            <Link to="/nejlevnejsi-tarify-2025">
+              <Button variant="default" size="lg" className="w-full h-auto p-6 flex flex-col items-center gap-3">
+                <span className="text-lg font-semibold">Nejlevnější tarify 2025</span>
+                <span className="text-sm text-muted-foreground">Aktuální přehled nejlevnějších nabídek</span>
+              </Button>
+            </Link>
+            
+            <Link to="/tarify-neomezena-data">
+              <Button variant="outline" size="lg" className="w-full h-auto p-6 flex flex-col items-center gap-3">
+                <span className="text-lg font-semibold">Tarify s neomezenými daty</span>
+                <span className="text-sm text-muted-foreground">Neomezené daty od 449 Kč měsíčně</span>
+              </Button>
+            </Link>
+            
+            <Link to="/tarify-pro-studenty-a-duchodce">
+              <Button variant="outline" size="lg" className="w-full h-auto p-6 flex flex-col items-center gap-3">
+                <span className="text-lg font-semibold">Tarify pro studenty a důchodce</span>
+                <span className="text-sm text-muted-foreground">Speciální slevy až 30%</span>
+              </Button>
+            </Link>
+            
+            <Link to="/tarify-bez-zavazku">
+              <Button variant="outline" size="lg" className="w-full h-auto p-6 flex flex-col items-center gap-3">
+                <span className="text-lg font-semibold">Tarify bez závazku</span>
+                <span className="text-sm text-muted-foreground">Žádné omezení, kdykoliv zrušitelné</span>
+              </Button>
+            </Link>
 
-            <Card className="hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
-              <CardContent className="p-6">
-                <h3 className="font-semibold mb-2">
-                  <Link to="/tarify-bez-zavazku" className="text-primary hover:underline">
-                    Tarify bez závazku
-                  </Link>
-                </h3>
-                <p className="text-sm text-muted-foreground">Flexibilní řešení bez omezení</p>
-              </CardContent>
-            </Card>
+            <Link to="/predplacene-karty-vs-tarify">
+              <Button variant="outline" size="lg" className="w-full h-auto p-6 flex flex-col items-center gap-3">
+                <span className="text-lg font-semibold">Předplacené karty vs tarify</span>
+                <span className="text-sm text-muted-foreground">Co se vám více vyplatí?</span>
+              </Button>
+            </Link>
 
-            <Card className="hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
-              <CardContent className="p-6">
-                <h3 className="font-semibold mb-2">
-                  <Link to="/predplacene-karty-vs-tarify" className="text-primary hover:underline">
-                    Předplacené karty vs. tarify
-                  </Link>
-                </h3>
-                <p className="text-sm text-muted-foreground">Co se vám více vyplatí?</p>
-              </CardContent>
-            </Card>
-
-            <Card className="hover:shadow-lg transition-all duration-300 hover:-translate-y-1 md:col-span-2 lg:col-span-3">
-              <CardContent className="p-6">
-                <h3 className="font-semibold mb-2">
-                  <Link to="/tip-jak-snizit-ucet" className="text-primary hover:underline">
-                    Tip: Jak snížit účet u stávajícího operátora
-                  </Link>
-                </h3>
-                <p className="text-sm text-muted-foreground">Praktické rady pro okamžité úspory</p>
-              </CardContent>
-            </Card>
+            <Link to="/tip-jak-snizit-ucet">
+              <Button variant="outline" size="lg" className="w-full h-auto p-6 flex flex-col items-center gap-3">
+                <span className="text-lg font-semibold">Jak snížit účet za mobil</span>
+                <span className="text-sm text-muted-foreground">Praktické tipy na okamžité úspory</span>
+              </Button>
+            </Link>
           </div>
         </div>
       </section>

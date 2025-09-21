@@ -9,6 +9,7 @@ import TarifyStudenti from "./pages/TarifyStudenti";
 import TarifyBezZavazku from "./pages/TarifyBezZavazku";
 import PredplaceneKarty from "./pages/PredplaceneKarty";
 import TipSnizeniUctu from "./pages/TipSnizeniUctu";
+import TarifyNeomezenaData from "./pages/TarifyNeomezenaData";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -26,6 +27,7 @@ const App = () => (
           <Route path="/tarify-bez-zavazku" element={<TarifyBezZavazku />} />
           <Route path="/predplacene-karty-vs-tarify" element={<PredplaceneKarty />} />
           <Route path="/tip-jak-snizit-ucet" element={<TipSnizeniUctu />} />
+          <Route path="/tarify-neomezena-data" element={<TarifyNeomezenaData />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

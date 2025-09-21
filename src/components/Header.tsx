@@ -15,14 +15,14 @@ const Header = () => {
           <Link to="/nejlevnejsi-tarify-2025" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
             Nejlevnější tarify
           </Link>
+          <Link to="/tarify-neomezena-data" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
+            Neomezená data
+          </Link>
           <Link to="/tarify-pro-studenty-a-duchodce" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
             Studenti & důchodci
           </Link>
           <Link to="/tarify-bez-zavazku" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
             Bez závazku
-          </Link>
-          <Link to="/predplacene-karty-vs-tarify" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
-            Předplacené karty
           </Link>
           <Link to="/tip-jak-snizit-ucet" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
             Tipy na úspory
